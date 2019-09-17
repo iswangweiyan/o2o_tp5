@@ -153,10 +153,68 @@ KEY bis_id(`bis_id`)
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- 团购商品表
-/*
-* name 商品名称
+/**
+ *name 商品名称, category_id商品分类, se_category_id二级栏目, bis_id属于哪个商家, location_ids所属店面
+ *image商品图标 description描述 start_time开始时间 end_time 结束时间, origin_price 商品原价, current_price现价, city_id商品属于哪个城市
+ *buy_count购买商品份数 total_count商品总数 coupons_end_time 团购券结束时间, coupons_begin_time 团购券开始时间, xpoint和ypoint 经纬度,
+ bis_account_id 哪个商家提交的数据, balance_price 商家与平台结算价格, notes商品提示
+ */
+CREATE TABLE `o2_deal`(
+  `id` INT(11) unsigned NOT NULL auto_increment,
+  `name` VARCHAR(100) NOT NULL DEFAULT '',
+  `category_id` INT(11) NOT NULL DEFAULT 0,
+  `se_category_id` INT(11) NOT NULL DEFAULT 0,
+  `bis_id` INT(11) NOT NULL DEFAULT 0,
+  `location_ids` VARCHAR(100) NOT NULL DEFAULT '',
+  `image` VARCHAR(100) NOT NULL DEFAULT '',
+  `description` text NOT NULL ,
+  `start_time` INT(11) NOT NULL DEFAULT 0,
+  `end_time` INT(11) NOT NULL DEFAULT 0,
+  `origin_price` decimal(20,2) NOT NULL DEFAULT '0.00',
+  `current_price` decimal(20,2) NOT NULL DEFAULT '0.00',
+  `city_id` INT(11) NOT NULL DEFAULT 0,
+  `buy_count` INT(11) NOT NULL DEFAULT 0,
+  `total_count` INT(11) NOT NULL DEFAULT 0,
+  `coupons_end_time` INT(11) NOT NULL DEFAULT 0,
+  `coupons_begin_time` INT(11) NOT NULL DEFAULT 0,
+  `xpoint` VARCHAR(20) NOT NULL DEFAULT '',
+  `ypoint` VARCHAR(20) NOT NULL DEFAULT '',
+  `bis_account_id` INT(10) NOT NULL DEFAULT 0,
+  `balance_price` DECIMAL(20,2) NOT NULL DEFAULT 0,
+  `notes` text NOT NULL,
+  `listorder` INT(8) unsigned NOT NULL default 0,
+  `status` tinyint(1) NOT NULL DEFAULT 0,
+  `create_time` INT(11) unsigned NOT NULL default 0,
+  `update_time` INT(11) unsigned NOT NULL default 0,
+  PRIMARY KEY (`id`),
+  KEY category_id(`category_id`),
+  KEY se_category_id(`se_category_id`),
+  KEY city_id(`city_id`),
+  KEY start_time(`start_time`),
+  KEY end_time(`end_time`)
+)ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8; 
 
-*/
-CREATE TABLE `o2` 
+-- 注册登录
+CREATE TABLE `o2o_user`(
+  `id` INT(11) unsigned NOT NULL auto_increment,
+  `password` CHAR(32) NOT NULL DEFAULT '',
+  `code` VARCHAR(10) NOT NULL DEFAULT '',
+  `last_login_ip` VARCHAR(20) NOT NULL DEFAULT 0,
+  `last_login_time` INT(11) unsigned NOT NULL DEFAULT 0,
+  `email` VARCHAR(30) NOT NULL DEFAULT '',
+  `mobile` VARCHAR(20) NOT NULL DEFAULT '',
+  `listorder` INT(8) unsigned NOT NULL default 0,
+  `status` tinyint(1) NOT NULL DEFAULT 0,
+  `create_time` INT(11) unsigned NOT NULL default 0,
+  `update_time` INT(11) unsigned NOT NULL default 0,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY username(`username`),
+  UNIQUE KEY email(`email`),
 
---
+)ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+
+--推荐位表单
+CREATE TABLE `o2o_featured`(
+
+
+)ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
