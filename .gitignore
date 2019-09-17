@@ -73,3 +73,9 @@ fastlane/test_output
 # Code Injection
 
 iOSInjectionProject/
+
+# phpstrom
+.idea
+
+#vscode 
+.vscode
