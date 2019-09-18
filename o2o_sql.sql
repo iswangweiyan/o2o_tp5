@@ -2,7 +2,7 @@
 /*
 --生活服务分类表
 */
-CREATE TABLE `O2O_category` (
+CREATE TABLE `o2o_category` (
 `id` INT(255) unsigned NOT NULL auto_increment,
 `name` VARCHAR (50) NOT NULL DEFAULT  '',
 `parent_id` INT(10) unsigned NOT NULL DEFAULT 0,
@@ -20,7 +20,7 @@ KEY parent_id(`parent_id`)
  *#uname 表示城市英文名   UNIQUE KEY表示唯一索引
  */
 
-CREATE TABLE `O2O_city` (
+CREATE TABLE `o2o_city` (
 `id` INT(255) unsigned NOT NULL auto_increment,
 `name` VARCHAR (50) NOT NULL DEFAULT  '',
 `uname` VARCHAR (50) NOT NULL DEFAULT  '',
@@ -38,7 +38,7 @@ KEY parent_id(`parent_id`)
  *商圈表
  */
 
-CREATE TABLE `O2O_area` (
+CREATE TABLE `o2o_area` (
 `id` INT(255) unsigned NOT NULL auto_increment,
 `name` VARCHAR (50) NOT NULL DEFAULT  '',
 `city_id` INT(10) unsigned NOT NULL DEFAULT  0,
@@ -52,8 +52,10 @@ KEY parent_id(`parent_id`),
 KEY city_id(`city_id`)
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
---商户表
+
 /*
+商户表
+
 licence_logo    description 描述  city_id 所在城市
 */
 CREATE TABLE `o2o_bis`(
@@ -82,7 +84,7 @@ KEY name(`name`)
 
 --商户的账户表
 /*
-username用户名,
+*username用户名,
 password 密码 默认md5加密 char(32), code不同的随机数
 bis_id 属于哪个商户
 last_login_ip 商户最后登录的ip
@@ -146,7 +148,6 @@ CREATE TABLE `o2o_bis_location`(
 `create_time` INT(11) unsigned NOT NULL default 0,
 `update_time` INT(11) unsigned NOT NULL default 0,
 PRIMARY KEY (`id`),
-KEY city_id(`city_id`),
 KEY name(`name`),
 KEY city_id(`city_id`),
 KEY bis_id(`bis_id`)
@@ -194,9 +195,10 @@ CREATE TABLE `o2_deal`(
   KEY end_time(`end_time`)
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8; 
 
--- 注册登录
+-- 用户表
 CREATE TABLE `o2o_user`(
   `id` INT(11) unsigned NOT NULL auto_increment,
+  `username` VARCHAR(100) NOT NULL DEFAULT '',
   `password` CHAR(32) NOT NULL DEFAULT '',
   `code` VARCHAR(10) NOT NULL DEFAULT '',
   `last_login_ip` VARCHAR(20) NOT NULL DEFAULT 0,
@@ -209,12 +211,25 @@ CREATE TABLE `o2o_user`(
   `update_time` INT(11) unsigned NOT NULL default 0,
   PRIMARY KEY (`id`),
   UNIQUE KEY username(`username`),
-  UNIQUE KEY email(`email`),
+  UNIQUE KEY email(`email`)
 
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 --推荐位表单
+/*
+*团购
+image图片
+*/
 CREATE TABLE `o2o_featured`(
-
-
+  `id` INT(10) unsigned NOT NULL auto_increment,
+  `type` tinyint(1) NOT NULL DEFAULT 0,
+  `title` VARCHAR(30) NOT NULL DEFAULT '',
+  `image` VARCHAR(255) NOT NULL DEFAULT '',
+  `url` VARCHAR(255) NOT NULL DEFAULT '',
+  `description` VARCHAR(255) NOT NULL DEFAULT '',
+  `listorder` INT(8) unsigned NOT NULL default 0,
+  `status` tinyint(1) NOT NULL DEFAULT 0,
+  `create_time` INT(11) unsigned NOT NULL default 0,
+  `update_time` INT(11) unsigned NOT NULL default 0,
+  PRIMARY KEY (`id`)
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
