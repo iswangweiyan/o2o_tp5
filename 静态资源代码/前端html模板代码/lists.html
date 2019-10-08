@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
@@ -12,7 +13,8 @@
     <script type="text/javascript" src="js/html5shiv.js"></script>
     <script type="text/javascript" src="js/respond.min.js"></script>
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-</head> 
+</head>
+
 <body>
     <div class="header-bar">
         <div class="header-inner">
@@ -315,7 +317,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="level-item">
                             <div class="first-level">
                                 <dl>
@@ -401,8 +403,8 @@
                                 </div>
                             </div>
                         </div>
-                        
-                        
+
+
                         <div class="level-item">
                             <div class="first-level">
                                 <dl>
@@ -502,16 +504,17 @@
             <div class="filter-wrap">
                 <div class="w-filter-ab-test">
                     <div class="w-filter-top-nav clearfix" style="margin:12px">
-                        
-                        
+
+
                     </div>
-                    
+
                     <div class="filter-wrapper">
                         <div class="normal-filter ">
                             <div class="w-filter-normal-ab  filter-list-ab">
                                 <h5 class="filter-label-ab">分类</h5>
                                 <span class="filter-all-ab">
-                                    <a class="w-filter-item-ab  item-all-auto-ab"><span class="item-content filter-active-all-ab ">全部</span></a>
+                                    <a class="w-filter-item-ab  item-all-auto-ab"><span
+                                            class="item-content filter-active-all-ab ">全部</span></a>
                                 </span>
                                 <div class="j-filter-items-wrap-ab filter-items-wrap-ab">
                                     <div class="j-filter-items-ab filter-items-ab filter-content-ab">
@@ -533,14 +536,14 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                     <div class="filter-wrapper">
                         <div class="normal-filter ">
                             <div class="w-filter-normal-ab  filter-list-ab">
                                 <h5 class="filter-label-ab">子分类</h5>
                                 <span class="filter-all-ab">
-                                    
+
                                 </span>
                                 <div class="j-filter-items-wrap-ab filter-items-wrap-ab">
                                     <div class="j-filter-items-ab filter-items-ab filter-content-ab">
@@ -562,19 +565,20 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="w-sort-bar">
-                    <div class="bar-area" style="position: relative; left: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; top: 0px;">
+                    <div class="bar-area"
+                        style="position: relative; left: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; top: 0px;">
                         <span class="sort-area">
                             <a class="sort-default sort-default-active">默认</a>
                             <a class="sort-item sort-down" title="点击按销量降序排序">销量↓</a>
                             <a class="sort-item price-default price" title="点击按价格降序排序">价格↓</a>
-                            
+
                             <a class="sort-item sort-up" title="发布时间由近到远">最新发布↑</a>
                         </span>
-                        
+
                     </div>
                 </div>
                 <ul class="itemlist eight-row-height">
@@ -964,22 +968,31 @@
 
     <div class="footer-content">
         <div class="copyright-info">
-            
+
         </div>
     </div>
     <script>
-        $(".tab-item-wrap").click(function(){
+        $(".tab-item-wrap").click(function () {
             var index = $(".tab-item-wrap").index(this);
             $(".tab-item-wrap").removeClass("selected");
-            $(".district-cont-wrap").css({display: "none"});
+            $(".district-cont-wrap").css({
+                display: "none"
+            });
             $(this).addClass("selected");
-            $(".district-cont-wrap").eq(index).css({display: "block"});
+            $(".district-cont-wrap").eq(index).css({
+                display: "block"
+            });
         });
 
-        $(".sort-area a").click(function(){
-            $(".sort-area a").removeClass("sort-default-active").css({color: "#666"});
-            $(this).addClass("sort-default-active").css({color: "#ff4883"});
+        $(".sort-area a").click(function () {
+            $(".sort-area a").removeClass("sort-default-active").css({
+                color: "#666"
+            });
+            $(this).addClass("sort-default-active").css({
+                color: "#ff4883"
+            });
         });
     </script>
 </body>
+
 </html>
