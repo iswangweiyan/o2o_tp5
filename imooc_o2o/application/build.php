@@ -2,7 +2,7 @@
 
 return [
     // 生成应用公共文件 在application文件目录下面会创建这些文件,如果文件存在就不创建
-     '__file__' => ['common.php', 'config.php', 'database.php'],
+    '__file__' => ['common.php', 'config.php', 'database.php'],
 
     // 定义demo模块的自动生成 （按照实际定义的文件名生成）
 
@@ -14,12 +14,11 @@ return [
     'model'      => ['User', 'UserType'],
     'view'       => ['index/index'],
     ],
-    */
-    
+     */
 
     // 其他更多的模块定义
 
-     'common' => [
+    'common' => [
         '__dir__' => ['model'],
         'model' => ['Category', 'Admin'],
     ],
@@ -31,8 +30,8 @@ return [
     ],
 
     'api' => [
-        '__dir__' =>['controller', 'view'],
-        'controller' =>['Index','Image'],
+        '__dir__' => ['controller', 'view'],
+        'controller' => ['Index', 'Image'],
     ],
 
 ];
