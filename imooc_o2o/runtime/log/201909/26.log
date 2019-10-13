@@ -1,0 +1,1868 @@
+[ 2019-09-26T15:59:29+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：0.034941s][吞吐率：28.62req/s] [内存消耗：1,659.59kb] [文件加载：32]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T15:59:29+08:00 ] ::1 ::1 GET /image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg
+[ log ] localhost/image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg [运行时间：0.067110s][吞吐率：14.90req/s] [内存消耗：1,292.24kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T15:59:29+08:00 ] ::1 ::1 GET /image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg
+[ log ] localhost/image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg [运行时间：0.018547s][吞吐率：53.92req/s] [内存消耗：1,292.24kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T15:59:29+08:00 ] ::1 ::1 GET /image/72f082025aafa40f9205eb43a364034f79f01968.jpg
+[ log ] localhost/image/72f082025aafa40f9205eb43a364034f79f01968.jpg [运行时间：0.016561s][吞吐率：60.38req/s] [内存消耗：1,292.27kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '72f082025aafa40f9205eb43a364034f79f01968.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T15:59:29+08:00 ] ::1 ::1 GET /image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg
+[ log ] localhost/image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg [运行时间：0.019361s][吞吐率：51.65req/s] [内存消耗：1,292.24kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:19:21+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：0.032603s][吞吐率：30.67req/s] [内存消耗：1,659.59kb] [文件加载：32]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:19:21+08:00 ] ::1 ::1 GET /image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg
+[ log ] localhost/image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg [运行时间：0.034246s][吞吐率：29.20req/s] [内存消耗：1,292.27kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:19:21+08:00 ] ::1 ::1 GET /image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg
+[ log ] localhost/image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg [运行时间：0.022679s][吞吐率：44.09req/s] [内存消耗：1,292.22kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:19:21+08:00 ] ::1 ::1 GET /image/72f082025aafa40f9205eb43a364034f79f01968.jpg
+[ log ] localhost/image/72f082025aafa40f9205eb43a364034f79f01968.jpg [运行时间：0.019074s][吞吐率：52.43req/s] [内存消耗：1,292.22kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '72f082025aafa40f9205eb43a364034f79f01968.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:19:21+08:00 ] ::1 ::1 GET /image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg
+[ log ] localhost/image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg [运行时间：0.018878s][吞吐率：52.97req/s] [内存消耗：1,292.22kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:22:55+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：0.015597s][吞吐率：64.11req/s] [内存消耗：1,659.60kb] [文件加载：32]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:22:55+08:00 ] ::1 ::1 GET /image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg
+[ log ] localhost/image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg [运行时间：0.018989s][吞吐率：52.66req/s] [内存消耗：1,292.25kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:22:55+08:00 ] ::1 ::1 GET /image/72f082025aafa40f9205eb43a364034f79f01968.jpg
+[ log ] localhost/image/72f082025aafa40f9205eb43a364034f79f01968.jpg [运行时间：0.017163s][吞吐率：58.26req/s] [内存消耗：1,292.29kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '72f082025aafa40f9205eb43a364034f79f01968.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:22:55+08:00 ] ::1 ::1 GET /image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg
+[ log ] localhost/image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg [运行时间：0.017359s][吞吐率：57.61req/s] [内存消耗：1,292.25kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:22:55+08:00 ] ::1 ::1 GET /image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg
+[ log ] localhost/image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg [运行时间：0.016973s][吞吐率：58.92req/s] [内存消耗：1,292.22kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:28:49+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：0.033886s][吞吐率：29.51req/s] [内存消耗：1,659.45kb] [文件加载：32]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:28:50+08:00 ] ::1 ::1 GET /image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg
+[ log ] localhost/image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg [运行时间：0.017774s][吞吐率：56.26req/s] [内存消耗：1,292.25kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:28:50+08:00 ] ::1 ::1 GET /image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg
+[ log ] localhost/image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg [运行时间：0.019027s][吞吐率：52.56req/s] [内存消耗：1,292.25kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:28:50+08:00 ] ::1 ::1 GET /image/72f082025aafa40f9205eb43a364034f79f01968.jpg
+[ log ] localhost/image/72f082025aafa40f9205eb43a364034f79f01968.jpg [运行时间：0.022595s][吞吐率：44.26req/s] [内存消耗：1,292.22kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '72f082025aafa40f9205eb43a364034f79f01968.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:28:50+08:00 ] ::1 ::1 GET /image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg
+[ log ] localhost/image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg [运行时间：0.023366s][吞吐率：42.80req/s] [内存消耗：1,292.22kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:29:05+08:00 ] ::1 ::1 GET /application/admin/view/index/index.html
+[ log ] localhost/application/admin/view/index/index.html [运行时间：0.030259s][吞吐率：33.05req/s] [内存消耗：1,293.20kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'application',
+    1 => 'admin',
+    2 => 'view',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+  'index' => 'index',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:29:42+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：0.017995s][吞吐率：55.57req/s] [内存消耗：1,659.45kb] [文件加载：32]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:29:42+08:00 ] ::1 ::1 GET /image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg
+[ log ] localhost/image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg [运行时间：0.018192s][吞吐率：54.97req/s] [内存消耗：1,292.25kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:29:42+08:00 ] ::1 ::1 GET /image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg
+[ log ] localhost/image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg [运行时间：0.018205s][吞吐率：54.93req/s] [内存消耗：1,292.25kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:29:42+08:00 ] ::1 ::1 GET /image/72f082025aafa40f9205eb43a364034f79f01968.jpg
+[ log ] localhost/image/72f082025aafa40f9205eb43a364034f79f01968.jpg [运行时间：0.021559s][吞吐率：46.38req/s] [内存消耗：1,292.22kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '72f082025aafa40f9205eb43a364034f79f01968.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:29:42+08:00 ] ::1 ::1 GET /image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg
+[ log ] localhost/image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg [运行时间：0.021199s][吞吐率：47.17req/s] [内存消耗：1,292.22kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:30:26+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：0.016065s][吞吐率：62.25req/s] [内存消耗：1,659.57kb] [文件加载：32]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:30:26+08:00 ] ::1 ::1 GET /image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg
+[ log ] localhost/image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg [运行时间：0.018930s][吞吐率：52.83req/s] [内存消耗：1,292.25kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:30:26+08:00 ] ::1 ::1 GET /image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg
+[ log ] localhost/image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg [运行时间：0.018189s][吞吐率：54.98req/s] [内存消耗：1,292.25kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:30:26+08:00 ] ::1 ::1 GET /image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg
+[ log ] localhost/image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg [运行时间：0.017093s][吞吐率：58.50req/s] [内存消耗：1,292.25kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:30:26+08:00 ] ::1 ::1 GET /image/72f082025aafa40f9205eb43a364034f79f01968.jpg
+[ log ] localhost/image/72f082025aafa40f9205eb43a364034f79f01968.jpg [运行时间：0.020617s][吞吐率：48.50req/s] [内存消耗：1,292.22kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '72f082025aafa40f9205eb43a364034f79f01968.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:30:30+08:00 ] ::1 ::1 GET /login.html
+[ log ] localhost/login.html [运行时间：0.013930s][吞吐率：71.79req/s] [内存消耗：1,292.57kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:30:32+08:00 ] ::1 ::1 GET /image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg
+[ log ] localhost/image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg [运行时间：0.018190s][吞吐率：54.98req/s] [内存消耗：1,292.25kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:30:32+08:00 ] ::1 ::1 GET /image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg
+[ log ] localhost/image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg [运行时间：0.019062s][吞吐率：52.46req/s] [内存消耗：1,292.25kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:42:55+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] 127.0.0.1/ [运行时间：0.024449s][吞吐率：40.90req/s] [内存消耗：1,658.91kb] [文件加载：32]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:42:55+08:00 ] 127.0.0.1 127.0.0.1 GET /image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg
+[ log ] 127.0.0.1/image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg [运行时间：0.017230s][吞吐率：58.04req/s] [内存消耗：1,291.77kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:42:55+08:00 ] 127.0.0.1 127.0.0.1 GET /image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg
+[ log ] 127.0.0.1/image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg [运行时间：0.013978s][吞吐率：71.54req/s] [内存消耗：1,291.65kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:42:55+08:00 ] 127.0.0.1 127.0.0.1 GET /image/72f082025aafa40f9205eb43a364034f79f01968.jpg
+[ log ] 127.0.0.1/image/72f082025aafa40f9205eb43a364034f79f01968.jpg [运行时间：0.016955s][吞吐率：58.98req/s] [内存消耗：1,291.77kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '72f082025aafa40f9205eb43a364034f79f01968.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:42:55+08:00 ] 127.0.0.1 127.0.0.1 GET /image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg
+[ log ] 127.0.0.1/image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg [运行时间：0.016703s][吞吐率：59.87req/s] [内存消耗：1,291.77kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:42:55+08:00 ] 127.0.0.1 127.0.0.1 GET /image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg
+[ log ] 127.0.0.1/image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg [运行时间：0.015324s][吞吐率：65.26req/s] [内存消耗：1,291.65kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:43:02+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] o2o.singwa.com/ [运行时间：0.017145s][吞吐率：58.33req/s] [内存消耗：1,658.49kb] [文件加载：32]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:43:02+08:00 ] 127.0.0.1 127.0.0.1 GET /image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg
+[ log ] o2o.singwa.com/image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg [运行时间：0.016538s][吞吐率：60.47req/s] [内存消耗：1,291.61kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.singwa.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:43:02+08:00 ] 127.0.0.1 127.0.0.1 GET /image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg
+[ log ] o2o.singwa.com/image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg [运行时间：0.016338s][吞吐率：61.21req/s] [内存消耗：1,291.61kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.singwa.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:43:02+08:00 ] 127.0.0.1 127.0.0.1 GET /image/72f082025aafa40f9205eb43a364034f79f01968.jpg
+[ log ] o2o.singwa.com/image/72f082025aafa40f9205eb43a364034f79f01968.jpg [运行时间：0.020420s][吞吐率：48.97req/s] [内存消耗：1,291.61kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '72f082025aafa40f9205eb43a364034f79f01968.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.singwa.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:43:02+08:00 ] 127.0.0.1 127.0.0.1 GET /image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg
+[ log ] o2o.singwa.com/image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg [运行时间：0.020333s][吞吐率：49.18req/s] [内存消耗：1,291.61kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.singwa.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:43:06+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] o2o.singwa.com/ [运行时间：0.015142s][吞吐率：66.04req/s] [内存消耗：1,658.88kb] [文件加载：32]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://o2o.singwa.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:43:06+08:00 ] 127.0.0.1 127.0.0.1 GET /image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg
+[ log ] o2o.singwa.com/image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg [运行时间：0.016536s][吞吐率：60.47req/s] [内存消耗：1,291.61kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.singwa.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:43:06+08:00 ] 127.0.0.1 127.0.0.1 GET /image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg
+[ log ] o2o.singwa.com/image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg [运行时间：0.018364s][吞吐率：54.45req/s] [内存消耗：1,291.61kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.singwa.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:43:06+08:00 ] 127.0.0.1 127.0.0.1 GET /image/72f082025aafa40f9205eb43a364034f79f01968.jpg
+[ log ] o2o.singwa.com/image/72f082025aafa40f9205eb43a364034f79f01968.jpg [运行时间：0.017641s][吞吐率：56.69req/s] [内存消耗：1,291.61kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '72f082025aafa40f9205eb43a364034f79f01968.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.singwa.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:43:06+08:00 ] 127.0.0.1 127.0.0.1 GET /image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg
+[ log ] o2o.singwa.com/image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg [运行时间：0.023301s][吞吐率：42.92req/s] [内存消耗：1,291.61kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.singwa.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:43:10+08:00 ] ::1 ::1 GET /application/admin/controller/Index.php
+[ log ] localhost/application/admin/controller/Index.php [运行时间：0.020858s][吞吐率：47.94req/s] [内存消耗：1,292.63kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'application',
+    1 => 'admin',
+    2 => 'controller',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:43:23+08:00 ] ::1 ::1 GET /application/admin/view/index/index.html
+[ log ] localhost/application/admin/view/index/index.html [运行时间：0.028169s][吞吐率：35.50req/s] [内存消耗：1,293.15kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'application',
+    1 => 'admin',
+    2 => 'view',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-18e9edc6=253805cc-5eb4-4676-b8e6-feca21d42999; pgv_pvi=2703814656',
+)
+[ info ] [ PARAM ] array (
+  'index' => 'index',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:43:35+08:00 ] 127.0.0.1 127.0.0.1 GET /image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg
+[ log ] o2o.singwa.com/image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg [运行时间：0.014268s][吞吐率：70.09req/s] [内存消耗：1,291.61kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.singwa.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:43:35+08:00 ] 127.0.0.1 127.0.0.1 GET /image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg
+[ log ] o2o.singwa.com/image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg [运行时间：0.015806s][吞吐率：63.27req/s] [内存消耗：1,291.61kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.singwa.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:43:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=index/user/login
+[ log ] o2o.singwa.com/index.php?s=index/user/login [运行时间：0.015826s][吞吐率：63.19req/s] [内存消耗：1,599.80kb] [文件加载：32]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/application/index/controller/User.php ]
+[ info ] [ VIEW ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/public/../application/index/view/user/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:44:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin
+[ log ] o2o.singwa.com/index.php?s=admin [运行时间：0.024191s][吞吐率：41.34req/s] [内存消耗：1,882.30kb] [文件加载：37]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/public/../application/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:44:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ log ] o2o.singwa.com/index.php/admin/index/welcome.html [运行时间：0.014935s][吞吐率：66.96req/s] [内存消耗：1,601.36kb] [文件加载：33]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://o2o.singwa.com/index.php?s=admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/application/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:44:15+08:00 ] 127.0.0.1 127.0.0.1 GET /%E8%AF%B7%E6%B7%BB%E5%8A%A0%E9%93%BE%E6%8E%A5
+[ log ] o2o.singwa.com/%E8%AF%B7%E6%B7%BB%E5%8A%A0%E9%93%BE%E6%8E%A5 [运行时间：0.013200s][吞吐率：75.76req/s] [内存消耗：1,291.94kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '请添加链接',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://o2o.singwa.com/index.php?s=admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T17:44:17+08:00 ] 127.0.0.1 127.0.0.1 GET /%E8%AF%B7%E6%B7%BB%E5%8A%A0%E9%93%BE%E6%8E%A5
+[ log ] o2o.singwa.com/%E8%AF%B7%E6%B7%BB%E5%8A%A0%E9%93%BE%E6%8E%A5 [运行时间：0.014320s][吞吐率：69.83req/s] [内存消耗：1,291.94kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '请添加链接',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://o2o.singwa.com/index.php?s=admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T20:34:20+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] o2o.singwa.com/ [运行时间：0.030816s][吞吐率：32.45req/s] [内存消耗：1,658.88kb] [文件加载：32]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T20:34:20+08:00 ] 127.0.0.1 127.0.0.1 GET /image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg
+[ log ] o2o.singwa.com/image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg [运行时间：0.014292s][吞吐率：69.97req/s] [内存消耗：1,292.05kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'purpose' => 'prefetch',
+  'referer' => 'http://o2o.singwa.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T20:34:20+08:00 ] 127.0.0.1 127.0.0.1 GET /image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg
+[ log ] o2o.singwa.com/image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg [运行时间：0.019045s][吞吐率：52.51req/s] [内存消耗：1,292.05kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'purpose' => 'prefetch',
+  'referer' => 'http://o2o.singwa.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T20:34:20+08:00 ] 127.0.0.1 127.0.0.1 GET /image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg
+[ log ] o2o.singwa.com/image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg [运行时间：0.024899s][吞吐率：40.16req/s] [内存消耗：1,291.90kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => 'a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'purpose' => 'prefetch',
+  'referer' => 'http://o2o.singwa.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-09-26T20:34:20+08:00 ] 127.0.0.1 127.0.0.1 GET /image/72f082025aafa40f9205eb43a364034f79f01968.jpg
+[ log ] o2o.singwa.com/image/72f082025aafa40f9205eb43a364034f79f01968.jpg [运行时间：0.028383s][吞吐率：35.23req/s] [内存消耗：1,292.05kb] [文件加载：27]
+[ info ] [ LANG ] /Users/iswangweiyan/Desktop/o2o_tp5/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'image',
+    1 => '72f082025aafa40f9205eb43a364034f79f01968.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'purpose' => 'prefetch',
+  'referer' => 'http://o2o.singwa.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  'cookie' => 'pgv_pvi=6184431616',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
