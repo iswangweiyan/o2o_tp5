@@ -55,7 +55,6 @@ KEY city_id(`city_id`)
 
 /*
 商户表
-
 licence_logo    description 描述  city_id 所在城市
 */
 CREATE TABLE `o2o_bis`(

@@ -15,7 +15,7 @@ class Test extends Controller
     public function index()
     {
         //
-        // 
+        //
     }
 
     /**
@@ -88,4 +88,5 @@ class Test extends Controller
     {
         return 'my name is imooc';
     }
+
 }

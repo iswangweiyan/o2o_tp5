@@ -26,10 +26,9 @@ class Category extends Controller
         $date = input('post.');
         $validate = validate('Category');
         if (!$validate->scene('add')->check($date)) {
-            $this ->error($validate->getError());
+            $this->error($validate->getError());
         }
         //将$date提交给model
-        
 
     }
 }
